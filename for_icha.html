@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Hai Icha</title> 
+  <link rel="stylesheet" href="style.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 400px;
+}
+
+.message-box h1 {
+  color: #ff6b6b;
+  font-size: 2em;
+}
+
+.message-box p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff4040;
+}
+
+.special-message {
+  display: none;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #ffefef;
+  border-radius: 8px;
+  font-size: 1.2em;
+  color: #d9534f;
+}</style></head> 
+ <body> 
+  <div class="container"> 
+   <div class="message-box"> 
+    <h1>Hai, Icha kuu sayangg 😊</h1> 
+    <p>Aku tahu kamu lagi nggak mood sekarang. Tapi, aku di sini untuk kamu, selalu ada. <br> Kamu tahu nggak? Senyummu itu seperti sinar matahari yang bikin hariku lebih cerah. Jadi, yuk senyum lagi?</p> <button onclick="showMessage()">Lihat Pesan Khusus</button> 
+   </div> 
+   <div id="special-message" class="special-message"> 
+    <p>Icha, aku sayang banget sama kamu. Jangan sedih lagi ya,jangan badmood lagi yaa.aku akan selalu di sini untuk kamu. ❤️</p> 
+   </div> 
+  </div> 
+  <script>
+    function showMessage() {
+      document.getElementById('special-message').style.display = 'block';
+    }
+  </script> 
+ 
+</body></html>
